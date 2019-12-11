@@ -77,6 +77,8 @@
         <li>Conversion <a href="<%= Url.Action("conversionapi") %>#presentation-matrix">presentation</a> to <em>odp</em> format.</li>
         <li>Added the <a href="<%= Url.Action("config/document/permissions") %>#comment">comment</a> field.</li>
         <li>Added the <a href="<%= Url.Action("config/document/permissions") %>#changeHistory">document.permissions.changeHistory</a> field and the <a href="<%= Url.Action("config/events") %>#onRequestRestore">onRequestRestore</a> event.</li>
+        <li>Added the <a href="<%= Url.Action("config/document/permissions") %>#rename">document.permissions.rename</a> field.</li>
+        <li>Added the <a href="<%= Url.Action("config/events") %>#onRequestRename">events.onRequestRename</a> event.</li>
         <li>Added the <a href="<%= Url.Action("command") %>#meta">meta</a> command.</li>
         <li>Added the <a href="<%= Url.Action("config/events") %>#onMetaChange">events.onMetaChange</a> event.</li>
     </ul>
